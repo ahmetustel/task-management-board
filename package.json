@@ -11,14 +11,21 @@
     "test": "jest"
   },
   "dependencies": {
+    "@dnd-kit/core": "^6.3.1",
+    "@dnd-kit/sortable": "^10.0.0",
     "@reduxjs/toolkit": "^2.5.0",
+    "@types/uuid": "^10.0.0",
     "next": "15.1.5",
     "react": "^19.0.0",
-    "react-beautiful-dnd": "^13.1.1",
     "react-dom": "^19.0.0",
-    "react-redux": "^9.2.0"
+    "react-redux": "^9.2.0",
+    "uuid": "^11.0.5"
   },
   "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.26.3",
+    "@babel/preset-typescript": "^7.26.0",
     "@eslint/eslintrc": "^3",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.2.0",
@@ -30,7 +37,7 @@
     "@typescript-eslint/parser": "^8.21.0",
     "autoprefixer": "^10.4.20",
     "babel-jest": "^29.7.0",
-    "eslint": "^9.18.0",
+    "eslint": "8",
     "eslint-config-next": "15.1.5",
     "eslint-config-prettier": "^10.0.1",
     "eslint-plugin-prettier": "^5.2.3",

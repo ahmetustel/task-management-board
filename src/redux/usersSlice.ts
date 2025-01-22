@@ -1,3 +1,5 @@
+// src/redux/usersSlice.ts
+
 import { createSlice } from '@reduxjs/toolkit';
 import { IUser } from '../interfaces/types';
 

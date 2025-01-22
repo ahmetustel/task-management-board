@@ -1,3 +1,4 @@
+// store/store.ts
 import { configureStore } from '@reduxjs/toolkit';
 import { useDispatch, useSelector, TypedUseSelectorHook } from 'react-redux';
 import tasksReducer from './tasksSlice';

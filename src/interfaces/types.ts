@@ -1,3 +1,4 @@
+// interfaces/types.tsx
 export interface IUser {
   id: number;
   name: string;
